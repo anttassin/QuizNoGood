@@ -1,0 +1,80 @@
+@font-face {
+    font-family: youreGone;
+    src: url(../assets/fonts/youregone/youregone.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #502F4C;
+}
+nav{
+    background: #F9F4F5;
+    padding: 30px 50px;
+}
+ul{
+    /* display: flex; */
+    vertical-align: middle;
+}
+li{
+    display: inline-block;
+}
+#logo{
+    width: 60%;
+}
+.right{
+    float: right;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.jouer{
+    background: #502F4C;
+    color: white;
+}
+#connexion{
+    background: #C8B8DB;
+    color: #502F4C;
+}
+h2 {
+    font-family: youreGone;
+}
+section{
+    background: #f9f4f5;
+    margin: 50px 20px;
+    width: 75%;
+    float: left;
+}
+aside{
+    background: #F9F4F5;
+    width: 15%;
+    float: right;
+    margin: 50px 0;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+footer{
+    background: #f9f4f5;
+    justify-content: space-between;    
+}
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    li{
+        display: block;
+        width: 100%;
+    }
+    .right{
+        float: none;
+    }
+}
