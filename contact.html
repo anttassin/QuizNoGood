@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizNoGood </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/a2255bc8c3.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-[#502F4C]">
+
+    <header>
+        <nav class="bg-[#F9F4F5] border-gray-200  py-2.5 m-0 ">
+            <div class=" flex flex-wrap justify-between items-center ml-20 mr-2">
+                <a href="#" class="flex items-center">
+                    <img alt="logo" id="logo"  src="/assets/img/logo.png" class="mr-3 h-6 sm:h-9">
+                </a>
+                    <ul class="flex flex-col p-4 mt-4  rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+                      <li>
+                        <button class="block py-2 pr-4 pl-3 text-lg text-[#F9F4F5] bg-[#502F4C] rounded-lg"><i class="fa-solid fa-play"></i>     &emsp; Jouer</button>
+                      </li>
+                      <li>
+                        <button class="block py-2 pr-4 pl-3 text-lg text-[#502F4C] bg-[#C8B8DB] rounded-lg">Se connecter</button>
+                      </li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="justify-center items-center bg-[#F9F4F5] border-gray-200  py-2.5 m-20 rounded-lg">
+        <h2 class="text-5xl text-center py-8">Contact</h2>
+        <div>
+            <p class="text-xl italic font-medium text-center">Est-ce <span class="font-black">vraiment</span> nécessaire ?</p>
+        </div>
+        <div class="flex justify-center">
+            <img class="content-center" src="assets/img/iznogoud.png" alt="iznogoud face"> 
+        </div>
+        
+        <div class="flex flex-col items-center justify-center">
+            <form class="p-8 m-5 ">
+                <div class="mb-5">
+                    <label for="pseudo" class="ml-4 text-lg text-[#502F4C] font-medium">Pseudo</label>
+                    <input type="text" name="pseudo" id="pseudo" class="rounded-lg p-2 bg-[#C8B8DB] outline-[#502F4C] w-full mb-5">
+                    <label for="mail" class="ml-4 text-lg text-[#502F4C] font-medium">Adresse mail</label>
+                    <input type="mail" name="mail" id="mail" class="rounded-lg p-2 bg-[#C8B8DB] outline-[#502F4C] w-full">
+                </div>
+                <div class="mb-5">
+                    <label for="msg" class="ml-4 text-lg text-[#502F4C] font-medium">Message</label>
+                    <textarea name="msg" id="msg" cols="100" rows="10" class="rounded-lg p-2 bg-[#C8B8DB] outline-[#502F4C] resize-none w-full"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="block py-2 pr-4 pl-3 text-lg text-[#F9F4F5] bg-[#502F4C] rounded-lg">Envoyez</button>
+                </div>
+            </form>
+        </div>
+
+
+    </main>
+
+
+    
+    <footer class="bg-[#F9F4F5] border-gray-200 py-2.5" >
+        <div class=" flex flex-wrap justify-between ml-10 mr-10 grid grid-cols-3">
+            <div></div>
+            <p class="block text-center content-center">        Copyright - QuizNoGood 2022        </p>
+            <a href="#" class="block text-end italic underline hover:text-[#C8B8DB]">Ne pas nous contacter</a>
+        </div>
+    </footer>
+</body>
+</html>
