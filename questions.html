@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/a2255bc8c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="flex flex-col h-screen bg-[#502F4C]">
+    <main class="bg-[#502F4C] flex-1">
+        
+        <div class=" flex flex-wrap justify-between items-center ml-20 mr-2">
+            <a href="#" class="flex items-center">
+                <img alt="logo" id="logo"  src="/assets/img/logo.png" class=" mr-3 mt-6 h-9 sm:h-12">
+            </a>
+            <span class="text-[#f4f5f9] text-4xl mt-5 mr-20 font-bold calibri"><i class="fa-sharp fa-solid fa-clock"></i>     &emsp; tempsRestant</span>
+        </div>
+
+        <h3 class="text-5xl text-center text-[#f4f5f9] py-12">QUESTION <span class="ml-10 text-base italic">numQuest</span></h3>
+
+        <div class=" grid grid-cols-6 mb-10 h-4/6 mt-5">
+            <div class="relative col-start-2 col-span-4 bg-[#f4f5f9] rounded-lg p-12">
+                <p class="text-3xl text-center text-[#502F4C] text-bold font-bold">Catégorie : <span class="ml-10 text-base italic">Izno Cat'</span> </p>
+
+                <p class="text-center mt-12 text-2xl text-[#000000]">Question : <span class="ml-10 italic">intitulé question intitulé question intitulé question intitulé question intitulé questionintitulé question intitulé question </span></p>
+
+                <form >
+                    <div class="mt-20 mx-5 grid grid-cols-2 gap-x-4 gap-y-8">
+                    <input class="hidden" name="radio1" id="radio1" type="radio"> 
+                    <span class="ml-10 p-4 text-xl italic bg-[#C8B8DB] rounded-lg"> Réponse 1</span>
+                    <input class="hidden" name="radio2" id="radio2"  type="radio">
+                    <span class="ml-10 p-4 text-xl italic bg-[#C8B8DB] rounded-lg"> Réponse 2</span>
+                    <input class="hidden" name="radio3" id="radio3"  type="radio">
+                    <span class="ml-10 p-4 text-xl italic bg-[#C8B8DB] rounded-lg"> Réponse 3</span>
+                    <input class="hidden" name="radio4" id="radio4"  type="radio">
+                    <span class="ml-10 p-4 text-xl italic bg-[#C8B8DB] rounded-lg"> Réponse 4</span>
+                    </div>
+
+                    <button class="px-12 py-4 bg-[#502F4C] rounded-lg absolute bottom-10 right-5"> <span class="text-2xl italic text-[#F9F4F5] italic">valider</span> </button>
+
+                </form>
+            </div> <!-- fin div contenant questions&réponses-->
+
+
+
+         </div> <!-- fin div générant les colones-->
+
+
+        <!-- Contact -->
+           
+    </main>
+
+    <footer class="bottom-0 w-full bg-[#F9F4F5] border-gray-200 py-2.5" >
+        <div class=" flex flex-wrap justify-between ml-10 mr-10 grid grid-cols-3">
+            <div></div>
+            <p class="block text-center content-center">        Copyright - QuizNoGood 2022        </p>
+            <a href="#" class="block text-end italic underline hover:text-[#C8B8DB]">Ne pas nous contacter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
