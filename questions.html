@@ -12,16 +12,19 @@
 
 <body class="flex flex-col h-screen bg-[#502F4C]">
     <main class="bg-[#502F4C] flex-1">
-        
         <div class=" flex flex-wrap justify-between items-center ml-20 mr-2">
-            <a href="#" class="flex items-center">
-                <img alt="logo" id="logo"  src="/assets/img/logo.png" class=" mr-3 mt-6 h-9 sm:h-12">
-            </a>
-            <span class="text-[#f4f5f9] text-4xl mt-5 mr-20 font-bold calibri"><i class="fa-sharp fa-solid fa-clock"></i>     &emsp; tempsRestant</span>
             <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="defaultModal">
                 <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 <span class="sr-only">Close modal</span>
             </button>
+        </div> <!--fin div bouton "x" fermeture modale-->
+
+        <div class=" flex flex-wrap justify-between items-center ml-20 mr-2">
+            
+            <a href="#" class="flex items-center">
+                <img alt="logo" id="logo"  src="/assets/img/logo.png" class=" mr-3 mt-6 h-9 sm:h-12">
+            </a>
+            <span class="text-[#f4f5f9] text-4xl mt-5 mx-20 font-bold calibri"><i class="fa-sharp fa-solid fa-clock"></i>     &emsp; tempsRestant</span>
         </div>
 
         <h3 class="text-5xl text-center text-[#f4f5f9] py-12">QUESTION <span class="ml-10 text-base italic">numQuest</span></h3>
@@ -44,7 +47,7 @@
                     <span class="ml-10 p-4 text-xl italic bg-[#C8B8DB] rounded-lg"> Réponse 4</span>
                     </div>
 
-                    <button class="px-12 py-4 bg-[#502F4C] rounded-lg absolute mt-28 right-5"> <span class="text-2xl italic text-[#F9F4F5] italic">valider</span> </button>
+                    <button class="px-12 py-4 bg-[#502F4C] rounded-lg absolute bottom-4 right-5"> <span class="text-2xl italic text-[#F9F4F5] italic">valider</span> </button>
 
                 </form>
             </div> <!-- fin div contenant questions&réponses-->
