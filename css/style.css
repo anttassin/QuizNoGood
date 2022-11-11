@@ -3,6 +3,17 @@
     src: url(../assets/fonts/youregone/youregone.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
 h2 {
     font-family: youreGone;
+}
+
+.sourceCode{
+    font-family: Source Code Pro;
+    font-weight: 800;
+}
+
+.calibri{
+    font-family: calibri;
 }
