@@ -5,6 +5,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
 
+/* pour que le footer reste en bas même avec une page vide */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
 h2 {
     font-family: youreGone;
 }
